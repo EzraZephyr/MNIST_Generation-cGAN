@@ -2,9 +2,9 @@ import csv
 import os
 import torch
 from torch import nn, optim
-from utils import discriminator
-from utils import generator
-from utils import dataloader
+from utils_zh import discriminator
+from utils_zh import generator
+from utils_zh import dataloader
 from matplotlib import pyplot as plt
 
 def train():
